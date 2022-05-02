@@ -15,7 +15,7 @@ if (navigator.serviceWorker) {
   });
 }
 
-function orderClicked() {
+function inputClicked(){
   var largePizza = document.getElementById("large");
   var extraLargePizza = document.getElementById("extra-large");
   var oneTopping = document.getElementById("one-topping");
