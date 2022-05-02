@@ -35,8 +35,7 @@ function inputClicked(){
     pizzaPrice = 6.00;
   }
   else {
-   document.getElementById("result").innerHTML =
-     "Please input pizza size"
+   document.getElementById("result").innerHTML = "Please input pizza size"
   }
 
   if (oneTopping.checked = true) {
@@ -52,13 +51,11 @@ function inputClicked(){
     toppingPrice = 3.35
   }
   else 
-    document.getElementById("result").innerHTML =
-      "Please input number of toppings"
+    document.getElementById("result").innerHTML = "Please input number of toppings"
 
   tax = (toppingPrice + pizzaPrice) * 0.13;
   finalPrice = toppingPrice + pizzaPrice + tax
 
   // output
-  document.getElementById("result").innerHTML = 
-    "Your order will cost $" + finalPrice.toFixed(2) ", thank you for ordering!""
+  document.getElementById("result").innerHTML = "Your order will cost $" + finalPrice.toFixed(2) + ", thank you for ordering!"
 }
