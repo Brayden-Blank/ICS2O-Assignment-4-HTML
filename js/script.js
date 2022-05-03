@@ -27,12 +27,12 @@ function inputClicked(){
   var tax = 0;
   var finalPrice = 0;
 
-  //process stuff
+  //process 
   if (largePizza.checked == true) {
     pizzaPrice = 6.00;
   }
   else if (extraLargePizza.checked == true) {
-    pizzaPrice = 10.00; 
+    pizzaPrice = 10.00;
   }
   else {
    document.getElementById("result").innerHTML = "Please input pizza size"
