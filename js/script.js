@@ -27,7 +27,7 @@ function inputClicked(){
   var tax = 0;
   var finalPrice = 0;
 
-  //process 
+  //process stuff
   if (largePizza.checked == true) {
     pizzaPrice = 6.00;
   }
