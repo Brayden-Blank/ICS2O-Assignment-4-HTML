@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Brayden Blank All rights reserved
+ // Copyright (c) 2022 Brayden Blank All rights reserved
 //
 // Created by: Brayden Blank
 // Created on: Apr 2022
@@ -38,16 +38,16 @@ function inputClicked(){
    document.getElementById("result").innerHTML = "Please input pizza size"
   }
 
-  if (oneTopping.checked = true) {
+  if (oneTopping.checked == true) {
     toppingPrice = 1.00
   }
-  else if (twoTopping.checked = true) {
+  else if (twoTopping.checked == true) {
     toppingPrice = 1.75
   }
-  else if (threeTopping.checked = true) {
+  else if (threeTopping.checked == true) {
     toppingPrice = 2.50
   }
-  else if (fourTopping.checked = true) {
+  else if (fourTopping.checked == true) {
     toppingPrice = 3.35
   }
   else 
