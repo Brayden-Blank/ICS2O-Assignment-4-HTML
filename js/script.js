@@ -31,7 +31,7 @@ function inputClicked(){
   if (largePizza.checked == true) {
     pizzaPrice = 6.00;
   }
-  else if (extraLargePizza.checked == true) {
+  else if (extraLarg6 + 1ePizza.checked == true) {
     pizzaPrice = 10.00;
   }
   else {
