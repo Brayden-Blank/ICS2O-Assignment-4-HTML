@@ -32,7 +32,7 @@ function inputClicked(){
     pizzaPrice = 6.00;
   }
   else if (extraLargePizza.checked == true) {
-    pizzaPrice = 10.00;
+    pizzaPrice = 10.00; 
   }
   else {
    document.getElementById("result").innerHTML = "Please input pizza size"
