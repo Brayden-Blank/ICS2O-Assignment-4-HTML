@@ -28,11 +28,11 @@ function inputClicked(){
   var finalPrice = 0;
 
   //process 
-  if(largePizza.checked == true) {
+  if (largePizza.checked == true) {
     pizzaPrice = 6.00;
   }
   else if (extraLargePizza.checked == true) {
-    pizzaPrice = 6.00;
+    pizzaPrice = 10.00;
   }
   else {
    document.getElementById("result").innerHTML = "Please input pizza size"
